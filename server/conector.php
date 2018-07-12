@@ -3,7 +3,7 @@ session_start();
 
 class ConectorBD
 {
-  /********* Modificar parámetros de acuerdo a la configuración del servidor local ********************************/
+  
   private $host = 'localhost'; //Nombre del servidor
   public $user = 'root'; //Nombre de usuario con permisos administrativos (crear bases de datos / tablas / insertar información)
   private $password = ''; //Conrtaseña de usuario con permisos administrativos
